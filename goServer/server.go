@@ -48,8 +48,6 @@ func handleRequest(conn net.Conn) {
   // Send a response back to person contacting us.
   conn.Write([]byte("Message received. Await connection to friend."))
   // Close the connection when you're done with it.
-  for {
-    
-  }
+  
   conn.Close()
 }
