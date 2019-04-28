@@ -1,16 +1,5 @@
 // Jackson Frankfurt
 // golang client program
-// Idea: 
-  // Client takes command line input of own name and name of friend
-  // Client sends to server own name and name of friend
-  // Server connects two clients if they ask for each other // Would be more simple if I just tested that they have the same 'secret code'
-  // I'll need to list the pairs of users who are connected
-  // I'll need to list the users who are pending connection
-  // I'll need to search the pending users whenever I add a new pending user.
-  // Server forwards messages between clients
-  // Client loops:
-    // prompt to user for a message
-    // send that message to server
 
 package main
 //this is package level
